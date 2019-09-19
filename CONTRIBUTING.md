@@ -13,7 +13,7 @@ We're all just regular folks, those that write code, add comments, oversee the p
 Filing issues with the project is a great step in helping the project - you're helping us learn what's not working, what you might want to see in the project or what we can do better. Even questions like 'how do I do X?' help us know where documentation may be lacking. When opening an issue, please make sure to follow the issue templates. Doing that helps us gather the required initial information to be able to further assist.
 
 ### Commenting
-Adding meaningful comments to issues and pull requests, helps the community as a whole. Providing suggestions, helping solving issues, giving feedback - it all helps. The main guideline we have here is 'be kind'.
+Adding meaningful comments to issues and pull requests, helps the community as a whole. Providing suggestions, helping solving issues, giving feedback - it all helps. Once again, the main guideline we have here is 'be kind'.
 
 ### Voting
 We're not big fans of adding comments like "+1", or "any updates on this?" but adding a :thumbsup: reaction to the opening comment helps us track what attracts more interest in our community, and what we should focus on next. 
@@ -28,10 +28,10 @@ Improving the project documentation is a huge help. You don't need to be an expe
 Think we can make the build faster? Should we incorporate additional things in the build process? Make a suggestion.
 
 ### Tests
-Adding tests is highly beneficial to any open source project. Tests can help in everal ways. They can ensure the current behavior is working properly and future changes don't break the functionality. They can also help expose existing issues for us to solve.
+Adding tests is highly beneficial to any open source project. Tests can help in several ways: they can ensure the current behavior is working properly and that future changes don't break the functionality, as well as help expose existing issues for us to solve.
 
 ### Submitting code changes
-Always welcome, but to reduce the chances of your PR being rejected see the section below.
+Code changes are always welcome, but to reduce the chances of your PR being rejected, see the section below.
 
 
 
@@ -40,7 +40,7 @@ Always welcome, but to reduce the chances of your PR being rejected see the sect
 Code changes can come in several forms, and the way they're handled differ.
 
 ### Documentation
-For the most part, documentation PRs would be accepted after an initial review. Be aware that a large documentation change may require longer review and potentially a discussion.
+For the most part, documentation PRs will be accepted after an initial review. Be aware that a large documentation change may require longer review and potentially a discussion.
 
 ### Bug fixes
 Bug fixes are always welcome as PRs. If you found a bug and would like to fix it, it's almost always better to open a ticket describing the issue alongside the PR solving it. Sometimes, bug fixes can be controversial. If you think this may happen with your fix, please start a discussion through a ticket before filing an actual fix.
