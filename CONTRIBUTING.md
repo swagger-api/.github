@@ -10,10 +10,10 @@ Contributing to an open source project doesn't have to be through code alone. Th
 We're all just regular folks, those that write code, add comments, oversee the projects and of course those that use it. The rule of thumb is: if in doubt, **be kind**.
 
 ### Opening issues
-Filing issues with the project is a great step in helping the project - you're helping us learn what's not working, what you might want to see in the project or what we can do better. Even questions like 'how do I do X?' help us know where documentation may be lacking. When opening an issue, please make sure to follow the issue templates. Doing that helps us gather the required initial information to be able to further assist.
+Filing issues with the project is a great step in helping the project — you're helping us learn what's not working, what you might want to see in the project or what we can do better. Even questions like 'how do I do X?' help us know where documentation may be lacking. When opening an issue, please make sure to follow the issue templates. Doing that helps us gather the required initial information to be able to further assist.
 
 ### Commenting
-Adding meaningful comments to issues and pull requests, helps the community as a whole. Providing suggestions, helping solving issues, giving feedback - it all helps. Once again, the main guideline we have here is 'be kind'.
+Adding meaningful comments to issues and pull requests, helps the community as a whole. Providing suggestions, helping solving issues, giving feedback — it all helps. Once again, the main guideline we have here is 'be kind'.
 
 ### Voting
 We're not big fans of adding comments like "+1", or "any updates on this?" but adding a :thumbsup: reaction to the opening comment helps us track what attracts more interest in our community, and what we should focus on next. 
@@ -22,7 +22,7 @@ We're not big fans of adding comments like "+1", or "any updates on this?" but a
 Even if you don't have time to contribute your own code, you may have time to review existing pull requests, helping us process those faster.
 
 ### Documentation
-Improving the project documentation is a huge help. You don't need to be an expert in the project, or understand all the bits and pieces. Have you dealt with an issue and think that if there was better documentation it'd have been easier? Document that part! If you tried going through the documentation and found it hard to navigate - fix that!
+Improving the project documentation is a huge help. You don't need to be an expert in the project, or understand all the bits and pieces. Have you dealt with an issue and think that if there was better documentation it'd have been easier? Document that part! If you tried going through the documentation and found it hard to navigate — fix that!
 
 ### Improve the build process
 Think we can make the build faster? Should we incorporate additional things in the build process? Make a suggestion.
