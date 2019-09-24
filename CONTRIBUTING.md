@@ -37,21 +37,57 @@ Code changes are always welcome, but to reduce the chances of your PR being reje
 
 ## Code Contributions
 
+### Code Contribution Types
 Code changes can come in several forms, and the way they're handled differ.
 
-### Documentation
-For the most part, documentation PRs will be accepted after an initial review. Be aware that a large documentation change may require longer review and potentially a discussion.
+#### Documentation
+For the most part, documentation PRs would be accepted after an initial review. Be aware that a large documentation change may require longer review and potentially a discussion.
 
-### Bug fixes
+#### Bug fixes
 Bug fixes are always welcome as PRs. If you found a bug and would like to fix it, it's almost always better to open a ticket describing the issue alongside the PR solving it. Sometimes, bug fixes can be controversial. If you think this may happen with your fix, please start a discussion through a ticket before filing an actual fix.
 
-### Features
+#### Features
 Adding features is a great way to improve an open source project. That said, each project has its own roadmap, requirements, constraints and needs. Before submitting a PR for _any_ feature, please file an issue first describing the change you want to make, and wait for feedback. Trying to analyze a feature contribution directly through a pull request is stressful for both sides, and a lot of concerns can be avoided by having an initial discussion.
 
-### UI/UX Features (Swagger UI and Swagger Editor Only)
+#### UI/UX features (Swagger UI and Swagger Editor only)
 These are more challenging than regular features, as we need to make sure they play well with other features and requirements. We have an internal UX team that reviews such suggestions, making this process a bit longer. This does not mean such changes will not be accepted, but be prepared to take more extensive feedback, and at times, even have a proposal declined.
 
-## Code Contribution Considerations
+
+### Coding Guidelines
+#### Branching model
+
+- Feature branches should be prefixed with `ft/`.
+
+- Bugfix branches should be prefixed with `bug/`.
+
+- After the forward slash, include a short description of what you're fixing. For example: `bug/fix-everything-that-was-broken`.
+
+- If there's an issue filed that you're addressing in your branch, include the issue number directly after the forward slash. For example: `bug/1234-fix-all-the-other-things`.
+
+#### Committing
+
+- Break your commits into logical atomic units. Well-segmented commits make it _much_ easier for others to step through your changes.
+- Limit your subject (first) line to 50 characters (GitHub truncates more than 70).
+- Provide a body if you'd like to explain your commit in detail.
+- Capitalize the beginning of your subject line, and do not end the subject line with a period.
+- Your subject line (after the reference to the issue, see below) should complete this sentence: `If applied, this commit will [your subject line].`
+- If there's an issue filed that you're addressing in your commit, prefix the subject line with the issue number. For example: `ref #1234 - fix everything broken`.
+- Don't use [magic GitHub words](https://help.github.com/articles/closing-issues-using-keywords/) in your commits to close issues - do that in the pull request for your code instead.
+
+_Adapted from [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/#seven-rules)._
+
+#### Making pull requests
+
+- **Do** summarize your changes in the PR body. If in doubt, write a bullet-point list titled `This PR does the following:`.
+- **Do** include references to issues that your PR solves, and use [magic GitHub words](https://help.github.com/articles/closing-issues-using-keywords/) to close those issues automatically when your PR is merged. Add the references in the PR body and not the title.
+- **Do** include tests that cover new or changed functionality.
+
+#### Merging pull requests
+- **Do** use GitHub's `Squash and merge` strategy.
+- **Do** follow the [Conventional Commits](https://conventionalcommits.org) standard format for your squash commit.
+
+
+#### Code Contribution Considerations
 
 - As mentioned, in most cases it's better to open a ticket discussing the suggested change before actually making the change.
 
