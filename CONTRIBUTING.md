@@ -67,12 +67,10 @@ These are more challenging than regular features, as we need to make sure they p
 #### Committing
 
 - Break your commits into logical atomic units. Well-segmented commits make it _much_ easier for others to step through your changes.
-- Limit your subject (first) line to 50 characters (GitHub truncates more than 70).
-- Provide a body if you'd like to explain your commit in detail.
-- Capitalize the beginning of your subject line, and do not end the subject line with a period.
-- Your subject line (after the reference to the issue, see below) should complete this sentence: `If applied, this commit will [your subject line].`
-- If there's an issue filed that you're addressing in your commit, prefix the subject line with the issue number. For example: `ref #1234 - fix everything broken`.
+- Limit your subject (first) line to 69 characters (GitHub truncates more than 70).
+- Use the imperative, present tense: "change" not "changed" nor "changes"
 - Don't use [magic GitHub words](https://help.github.com/articles/closing-issues-using-keywords/) in your commits to close issues - do that in the pull request for your code instead.
+- Read [Conventional Commits Specification](https://www.conventionalcommits.org/en/v1.0.0/) before creating your first commit
 
 _Adapted from [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/#seven-rules)._
 
